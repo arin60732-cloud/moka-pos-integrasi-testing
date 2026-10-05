@@ -1,0 +1,38 @@
+{
+    "products": [
+        {
+            "id": "P001",
+            "name": "Kopi Arabica",
+            "stock": 0,
+            "price": 25000
+        },
+        {
+            "id": "P002",
+            "name": "Teh Manis",
+            "stock": 14,
+            "price": 12000
+        },
+        {
+            "id": "P003",
+            "name": "Roti Cokelat",
+            "stock": 10,
+            "price": 15000
+        }
+    ],
+    "transactions": [
+        {
+            "transaction_id": "TRX002",
+            "product_id": "P001",
+            "quantity": 20,
+            "total": 500000,
+            "status": "synchronized"
+        },
+        {
+            "transaction_id": "TRX007",
+            "product_id": "P002",
+            "quantity": 1,
+            "total": 12000,
+            "status": "synchronized"
+        }
+    ]
+}
